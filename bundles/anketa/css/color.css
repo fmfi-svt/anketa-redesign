@@ -1,0 +1,140 @@
+
+html, body {
+  background-color: #E0FFEF;
+  color: #222;
+}
+
+html.anketa-prod, html.anketa-prod body {
+  background: #E0EFFF;
+}
+
+html.anketa-beta, html.anketa-beta body {
+  background: #FFEFE0;
+}
+
+html.anketa-demo, html.anketa-demo body {
+  background: #FFE0EF;
+}
+
+a:link, a:visited, a:active {
+  color: #003A76;
+}
+
+.warning {
+  color: red;
+}
+
+#header a {
+  color: inherit;
+}
+
+#user-bar {
+  color: #777;
+}
+
+#user-bar a {
+  color: inherit;
+}
+
+#sidebar .menu li.inner {
+  background: transparent url("../images/collapsed.gif") no-repeat 0 0.3em;
+}
+
+#sidebar .menu li.inner.expanded {
+  background: transparent url("../images/expanded.gif") no-repeat 0 0.3em;
+}
+
+/* zrusime rozbalovatka prvej urovne */
+#sidebar .menu li.inner.menu-level-0 {
+  background: none;
+}
+
+#sidebar .menu a.active {
+  background: white;
+  background: transparent -webkit-linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,255) 100%);
+  background: transparent    -moz-linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,255) 100%);
+  background: transparent      -o-linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,255) 100%);
+  background: transparent         linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,255) 100%);
+}
+
+.mobile #sidebar .menu a.active {
+  background-image: none;
+  border-radius: 0.5em;
+  padding-left: 1.5em;
+}
+
+#sidebar .menu a.menu-level-0 {
+  color: black;
+}
+
+.progressbar-welcome {
+  border-color: #9ACBFF;
+}
+
+.progressbar-welcome .anon {
+  background: #9ACBFF;
+}
+
+.progressbar-welcome .voters {
+  background: #CCE4FF;
+}
+
+.progressbar-low {
+  border-color: #CC6265;
+}
+
+.progressbar-low .done {
+  background: #CC6265;
+}
+
+.progressbar-medium {
+  border-color: #F5CD2B;
+}
+
+.progressbar-medium .done {
+  background: #F5CD2B;
+}
+
+.progressbar-high {
+  border-color: #5bf74e;
+}
+
+.progressbar-high .done {
+  background: #5bf74e;
+}
+
+#content {
+  background: white;
+  border-radius: 1em;
+}
+
+.mobile #content {
+  border-radius: 0;
+}
+
+.question {
+  border-color: #DDD;
+}
+
+.question .description {
+  color: #888;
+}
+
+#footer {
+  color: #777;
+}
+
+#footer a {
+  color: #777;
+}
+
+.flash-success {
+    border-color: green;
+    background-color: #ebfdec;
+    background: #ebfdec url("../images/success.png") left center no-repeat;
+}
+
+.flash-error {
+    background-color: rgb(255, 210, 210);
+    border-color: red;
+}

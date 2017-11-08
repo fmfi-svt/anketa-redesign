@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html class="anketa-demo">
+    <head>
+                        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                        <link rel="stylesheet" href="/bundles/anketa/css/reset.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="/bundles/anketa/css/base.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="/bundles/anketa/css/main.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="/bundles/anketa/css/mobile.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="/bundles/anketa/css/color.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="/bundles/anketa/css/stars.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="/bundles/anketa/css/stats.css" type="text/css" media="all" />
+                        <script type="text/javascript" src="/bundles/anketa/js/jquery.js"></script>
+        <script type="text/javascript" src="/bundles/anketa/js/mobile.js"></script>
+        <script type="text/javascript" src="/bundles/anketa/js/stars.js"></script>
+        <script type="text/javascript" src="/bundles/anketa/js/stats.js"></script>
+        <script type="text/javascript" src="/bundles/anketa/js/filter.js"></script>
+        <script type="text/javascript" src="/bundles/anketa/js/unload.js"></script>
+        <script type="text/javascript" src="/bundles/anketa/js/welcome.js"></script>
+        <script type="text/javascript" src="/bundles/anketa/js/expanding.js"></script>
+                <!--[if lte IE 7]>
+        <style>
+            .container { width: 60em; }
+            .clearfix { zoom: 1; }
+        </style>
+        <![endif]-->
+        <title>Agilné techniky v praxi - Anketa FMFI  (demo)</title>
+        <link rel="shortcut icon" href="/favicon.ico" />
+            </head>
+    <body>
+                    <div id="container">
+            <div id="user-bar">
+                    <span class="for-screen-readers">Prihlásený: </span><span class="user-fullname" title="suppa1">Suppa Sapiens</span>
+&mdash; <a href="/logout" class="logout">Odhlásiť</a>
+
+            </div>
+            <div id="section-bar">
+                                                                                            <a class="section" href="/en/vote/">English</a>
+                                                                <a href="/faq/" class="section">FAQ</a>
+                
+            <a href="/anketa/" class="section">Hlasuj</a>
+        
+
+
+            </div>
+
+            <div id="header">
+                                    <h1><a href="/">Anketa <strong>FMFI</strong> <span id="instance">(<span>demo</span>)</span></a></h1>
+                            </div>
+
+            <div id="sidebar">
+            <div id="sidebar-inner">
+                    
+
+
+
+
+<h2 class="for-screen-readers">Kategórie</h2>
+<div class="menu">
+        <ul class="menu-level-0">
+                                                <li class="menu-level-0 inner expanded">
+                                    <a class="menu-level-0 inner expanded" href="/hlasuj/predmet">    <span class="progressbar-low
+"
+          title="21%">
+      <span class="done" style="width: 21%;"></span>
+    </span>
+Predmety</a>
+                                      <span class="for-screen-readers">21%</span>
+                                                              <ul class="menu-level-1">
+                                                <li class="menu-level-1 inner expanded active">
+                                    <a class="menu-level-1 inner expanded active" href="/hlasuj/predmet/agil056">    <span class="progressbar-medium
+"
+          title="50%">
+      <span class="done" style="width: 50%;"></span>
+    </span>
+Agilné techniky v praxi</a>
+                                      <span class="for-screen-readers">50%</span>
+                                                              <ul class="menu-level-2">
+                                                <li class="menu-level-2 leaf">
+                                    <a class="menu-level-2 leaf" href="/hlasuj/predmet/agil056/ucitel/2">    <span class="progressbar-low
+"
+          title="0%">
+      <span class="done" style="width: 0%;"></span>
+    </span>
+Bc. Ivan Trančík</a>
+                                      <span class="for-screen-readers">0%</span>
+                                                  </li>
+                        </ul>
+
+                                </li>
+                                                            <li class="menu-level-1 inner">
+                                    <a class="menu-level-1 inner" href="/hlasuj/predmet/met001">    <span class="progressbar-low
+"
+          title="0%">
+      <span class="done" style="width: 0%;"></span>
+    </span>
+Metalyza</a>
+                                      <span class="for-screen-readers">0%</span>
+                                                  </li>
+                                                            <li class="menu-level-1 inner">
+                                    <a class="menu-level-1 inner" href="/hlasuj/predmet/tv06">    <span class="progressbar-low
+"
+          title="0%">
+      <span class="done" style="width: 0%;"></span>
+    </span>
+Telesná výchova</a>
+                                      <span class="for-screen-readers">0%</span>
+                                                  </li>
+                        </ul>
+
+                                </li>
+                                                            <li class="menu-level-0 inner">
+                                    <a class="menu-level-0 inner" href="/hlasuj/program">    <span class="progressbar-low
+"
+          title="0%">
+      <span class="done" style="width: 0%;"></span>
+    </span>
+Študijné programy</a>
+                                      <span class="for-screen-readers">0%</span>
+                                                  </li>
+                                                            <li class="menu-level-0 inner">
+                                    <a class="menu-level-0 inner" href="/hlasuj/vseobecne">    <span class="progressbar-low
+"
+          title="0%">
+      <span class="done" style="width: 0%;"></span>
+    </span>
+Všeobecné otázky</a>
+                                      <span class="for-screen-readers">0%</span>
+                                                  </li>
+                                                            <li class="menu-level-0 leaf">
+                                    <a class="menu-level-0 leaf" href="/anonymizuj/">Ukončenie hlasovania</a>
+                                                  </li>
+                        </ul>
+
+</div>
+
+
+            </div>
+            </div>
+
+            <div id="content" class="clearfix">
+                                                                                            <h2>Agilné techniky v praxi</h2>
+    <form action="#" method="post">
+            <p style="color: #888;">
+            Ak tento predmet nepodlieha priamej vyučbe, ale splneniu určitých povinností (ako napr. diplomová práca, vedecká činnosť, samostatné štúdium odbornej literatúry a pod.), prípadne ste tento predmet v aktuálnom semestri neobsolvovali lebo Vám bol uznaný, hodnotenie predmetu prosím preskočte.
+        </p>
+                <p>Je v zozname učiteľov k tomuto predmetu chyba?
+        <a href="/hlasuj/predmet/agil056/zmena-ucitela"
+           >Dajte nám vedieť a my to napravíme</a>.
+        </p>
+            <div class="submit">
+        <input class="save" type="submit" name="save" value="Ulož" />
+        <input class="next" type="submit" name="next" value="Ulož a choď ďalej &raquo;" />
+    </div>
+                <div class="question stars">
+            <h3>Celkové hodnotenie kvality predmetu.</h3>
+            
+                          <div class="option none">
+                <label for="question_5_empty">
+                  <input type="radio"
+                         id="question_5_empty"
+                         name="question[5][answer]"
+                         value="-1"
+                                                                                           />
+              žiadna odpoveď
+              </label>
+              </div>
+
+                            <div class="option">
+                  <label for="question_5_16">
+                    <input type="radio"
+                           id="question_5_16"
+                           name="question[5][answer]"
+                           value="16"
+                         />
+                    1 z 5 hviezdičiek
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_5_17">
+                    <input type="radio"
+                           id="question_5_17"
+                           name="question[5][answer]"
+                           value="17"
+                         />
+                    2 z 5 hviezdičiek
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_5_18">
+                    <input type="radio"
+                           id="question_5_18"
+                           name="question[5][answer]"
+                           value="18"
+                         />
+                    3 z 5 hviezdičiek
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_5_19">
+                    <input type="radio"
+                           id="question_5_19"
+                           name="question[5][answer]"
+                           value="19"
+                         />
+                    4 z 5 hviezdičiek
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_5_20">
+                    <input type="radio"
+                           id="question_5_20"
+                           name="question[5][answer]"
+                           value="20"
+                                                    checked="checked"
+                         />
+                    5 z 5 hviezdičiek
+                  </label>
+                </div>
+                        
+                    </div>
+            <div class="question">
+            <h3>Ako náročná bola podľa vás preberaná látka?</h3>
+            
+                          <div class="option none">
+                <label for="question_6_empty">
+                  <input type="radio"
+                         id="question_6_empty"
+                         name="question[6][answer]"
+                         value="-1"
+                                                                                           />
+              žiadna odpoveď
+              </label>
+              </div>
+
+                            <div class="option">
+                  <label for="question_6_21">
+                    <input type="radio"
+                           id="question_6_21"
+                           name="question[6][answer]"
+                           value="21"
+                         />
+                    Nepochopiteľná.
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_6_22">
+                    <input type="radio"
+                           id="question_6_22"
+                           name="question[6][answer]"
+                           value="22"
+                         />
+                    Nadsadená.
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_6_23">
+                    <input type="radio"
+                           id="question_6_23"
+                           name="question[6][answer]"
+                           value="23"
+                                                    checked="checked"
+                         />
+                    Akurát.
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_6_24">
+                    <input type="radio"
+                           id="question_6_24"
+                           name="question[6][answer]"
+                           value="24"
+                         />
+                    Nenáročná.
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_6_25">
+                    <input type="radio"
+                           id="question_6_25"
+                           name="question[6][answer]"
+                           value="25"
+                         />
+                    Triviálna.
+                  </label>
+                </div>
+                        
+                    </div>
+            <div class="question stars">
+            <h3>Bol obsah predmetu pre Vás zaujímavý?</h3>
+            
+                          <div class="option none">
+                <label for="question_7_empty">
+                  <input type="radio"
+                         id="question_7_empty"
+                         name="question[7][answer]"
+                         value="-1"
+                                                                                           />
+              žiadna odpoveď
+              </label>
+              </div>
+
+                            <div class="option">
+                  <label for="question_7_26">
+                    <input type="radio"
+                           id="question_7_26"
+                           name="question[7][answer]"
+                           value="26"
+                         />
+                    1 z 5 hviezdičiek
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_7_27">
+                    <input type="radio"
+                           id="question_7_27"
+                           name="question[7][answer]"
+                           value="27"
+                         />
+                    2 z 5 hviezdičiek
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_7_28">
+                    <input type="radio"
+                           id="question_7_28"
+                           name="question[7][answer]"
+                           value="28"
+                         />
+                    3 z 5 hviezdičiek
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_7_29">
+                    <input type="radio"
+                           id="question_7_29"
+                           name="question[7][answer]"
+                           value="29"
+                         />
+                    4 z 5 hviezdičiek
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_7_30">
+                    <input type="radio"
+                           id="question_7_30"
+                           name="question[7][answer]"
+                           value="30"
+                                                    checked="checked"
+                         />
+                    5 z 5 hviezdičiek
+                  </label>
+                </div>
+                        
+                    </div>
+            <div class="question">
+            <h3>Aké bolo množstvo práce vzhľadom na počet kreditov?</h3>
+                            <div class="description">Zhodnoťte množstvo domácich úloh, projektov, priebežné písomky, množstvo nového učiva a pod.
+</div>
+            
+                          <div class="option none">
+                <label for="question_8_empty">
+                  <input type="radio"
+                         id="question_8_empty"
+                         name="question[8][answer]"
+                         value="-1"
+                                                                                           />
+              žiadna odpoveď
+              </label>
+              </div>
+
+                            <div class="option">
+                  <label for="question_8_31">
+                    <input type="radio"
+                           id="question_8_31"
+                           name="question[8][answer]"
+                           value="31"
+                         />
+                    Totálny zabijak.
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_8_32">
+                    <input type="radio"
+                           id="question_8_32"
+                           name="question[8][answer]"
+                           value="32"
+                         />
+                    Pomerne veľké.
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_8_33">
+                    <input type="radio"
+                           id="question_8_33"
+                           name="question[8][answer]"
+                           value="33"
+                                                    checked="checked"
+                         />
+                    Akurát.
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_8_34">
+                    <input type="radio"
+                           id="question_8_34"
+                           name="question[8][answer]"
+                           value="34"
+                         />
+                    Pomerne malé.
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_8_35">
+                    <input type="radio"
+                           id="question_8_35"
+                           name="question[8][answer]"
+                           value="35"
+                         />
+                    Aká práca?
+                  </label>
+                </div>
+                        
+                    </div>
+            <div class="question">
+            <h3>Boli jasne stanovené požiadavky a spôsob hodnotenia predmetu?</h3>
+            
+                          <div class="option none">
+                <label for="question_9_empty">
+                  <input type="radio"
+                         id="question_9_empty"
+                         name="question[9][answer]"
+                         value="-1"
+                                                                     checked="checked"
+                       />
+              žiadna odpoveď
+              </label>
+              </div>
+
+                            <div class="option">
+                  <label for="question_9_36">
+                    <input type="radio"
+                           id="question_9_36"
+                           name="question[9][answer]"
+                           value="36"
+                         />
+                    Určite áno.
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_9_37">
+                    <input type="radio"
+                           id="question_9_37"
+                           name="question[9][answer]"
+                           value="37"
+                         />
+                    Skôr áno.
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_9_38">
+                    <input type="radio"
+                           id="question_9_38"
+                           name="question[9][answer]"
+                           value="38"
+                         />
+                    Skôr nie.
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_9_39">
+                    <input type="radio"
+                           id="question_9_39"
+                           name="question[9][answer]"
+                           value="39"
+                         />
+                    Určite nie.
+                  </label>
+                </div>
+                        
+                    </div>
+            <div class="question">
+            <h3>Zhruba akú časť kontaktnej výučby (prednášky, cvičenia a pod.) ste absolvovali?</h3>
+            
+                          <div class="option none">
+                <label for="question_10_empty">
+                  <input type="radio"
+                         id="question_10_empty"
+                         name="question[10][answer]"
+                         value="-1"
+                                                                                           />
+              žiadna odpoveď
+              </label>
+              </div>
+
+                            <div class="option">
+                  <label for="question_10_40">
+                    <input type="radio"
+                           id="question_10_40"
+                           name="question[10][answer]"
+                           value="40"
+                                                    checked="checked"
+                         />
+                    90-100%
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_10_41">
+                    <input type="radio"
+                           id="question_10_41"
+                           name="question[10][answer]"
+                           value="41"
+                         />
+                    60-90%
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_10_42">
+                    <input type="radio"
+                           id="question_10_42"
+                           name="question[10][answer]"
+                           value="42"
+                         />
+                    30-60%
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_10_43">
+                    <input type="radio"
+                           id="question_10_43"
+                           name="question[10][answer]"
+                           value="43"
+                         />
+                    10-30%
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_10_44">
+                    <input type="radio"
+                           id="question_10_44"
+                           name="question[10][answer]"
+                           value="44"
+                         />
+                    Menej ako 10%.
+                  </label>
+                </div>
+                        
+                    </div>
+            <div class="question">
+            <h3>Odporučili by ste tento predmet ostatným študentom?</h3>
+            
+                          <div class="option none">
+                <label for="question_11_empty">
+                  <input type="radio"
+                         id="question_11_empty"
+                         name="question[11][answer]"
+                         value="-1"
+                                                                     checked="checked"
+                       />
+              žiadna odpoveď
+              </label>
+              </div>
+
+                            <div class="option">
+                  <label for="question_11_45">
+                    <input type="radio"
+                           id="question_11_45"
+                           name="question[11][answer]"
+                           value="45"
+                         />
+                    Určite áno
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_11_46">
+                    <input type="radio"
+                           id="question_11_46"
+                           name="question[11][answer]"
+                           value="46"
+                         />
+                    Skôr áno
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_11_47">
+                    <input type="radio"
+                           id="question_11_47"
+                           name="question[11][answer]"
+                           value="47"
+                         />
+                    Skôr nie
+                  </label>
+                </div>
+                            <div class="option">
+                  <label for="question_11_48">
+                    <input type="radio"
+                           id="question_11_48"
+                           name="question[11][answer]"
+                           value="48"
+                         />
+                    Určite nie
+                  </label>
+                </div>
+                        
+                    </div>
+            <div class="question">
+            <h3>Napíšte Váš názor na tento predmet. Zdôvodnite, prečo by ste ho odporúčali/neodporúčali.</h3>
+                            <div class="description">Popíšte, čo by ste navrhli zmeniť v organizácii a obsahu tohto predmetu. Ktorá časť výučby nebola dostatočne pokrytá vhodným študijným materiálom. Môžete uviesť, prečo by ste ho odporúčali/neodporúčali ďalším študentom.
+</div>
+            
+            
+                        <div class="comment">
+                <div><label for="comment_12">Komentár:</label></div>
+                <textarea id="comment_12" class="expanding"
+                          name="question[12][comment]"
+                    >asdf</textarea>
+            </div>
+                    </div>
+            <div class="submit">
+        <input class="save" type="submit" name="save" value="Ulož" />
+        <input class="next" type="submit" name="next" value="Ulož a choď ďalej &raquo;" />
+    </div>
+    
+    </form>
+            </div>
+
+            <div id="footer">
+                &copy; <a href="http://svt.fmph.uniba.sk/">Študentský Vývojový Tím</a> 2011,2012
+            </div>
+        </div>
+        
+            
+        </body>
+</html>

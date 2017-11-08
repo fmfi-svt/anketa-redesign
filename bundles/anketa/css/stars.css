@@ -1,0 +1,54 @@
+
+.question h3.keyboard-focus {
+  background: #DDD;
+}
+
+.stars-container {
+  margin: 0.5em 0;
+  position: relative;
+}
+
+.stars-container .star, .stars-container .cancel {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url("../images/star.png");
+}
+
+.stars-container .star {
+  background-position: left top;
+}
+.stars-container .star.hover {
+  background-position: center top;
+}
+.stars-container .star.active {
+  background-position: left center;
+}
+.stars-container .star.active.hover {
+  background-position: center center;
+}
+.stars-container.cancel-hover .star.active {
+  background-position: right center;
+}
+.stars-container .cancel {
+  background-position: left bottom;
+}
+.stars-container.cancel-hover .cancel {
+  background-position: center bottom;
+}
+
+/* screen readre stale vidia standardny pohlad, a ignoruju elementy vygenerovane
+ * JavaScriptom (vsetko su to len divy a spany bez obsahu). aspon mali by.
+ */
+html.with-stars-js .question.stars .option,
+html.with-stars-js .question .option.none {
+  display: block;
+  position: absolute;
+  left: -5000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
